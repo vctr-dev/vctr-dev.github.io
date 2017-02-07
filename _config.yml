@@ -1,2 +1,3 @@
 name: Victor Chan
 markdown: kramdown
+permalink: /blog/:year/:month/:day/:title
