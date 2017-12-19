@@ -59,7 +59,7 @@ In a team environment, I am able to take a mockup or wireframe and efficiently p
 ## Contact Info
 - Phone: +61413827908
 - Email: victor.z.chan@gmail.com
-- Github: https://github.com/geekveek
+- Github: https://github.com/victorzchan
 
 ## Projects and Initiatives
 
