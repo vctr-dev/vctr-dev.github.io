@@ -1,0 +1,9 @@
+---
+dev:
+  options:
+    serve:
+      command: "bundle exec jekyll serve"
+    update:
+      command: "bundle update"
+    install:
+      command: "bundle install"
