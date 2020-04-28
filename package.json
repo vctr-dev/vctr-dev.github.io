@@ -1,0 +1,12 @@
+{
+	"scripts": {
+		"format": "prettier --loglevel warn --write \"**/*.{js,css,md}\"",
+		"posttest": "npm run format",
+		"start": "bundle exec jekyll serve",
+		"gem:update": "bundle update",
+		"gem:install": "bundle install"
+	},
+	"devDependencies": {
+		"prettier": "^2.0.5"
+	}
+}
