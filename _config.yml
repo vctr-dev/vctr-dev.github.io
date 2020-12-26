@@ -1,4 +1,17 @@
 name: Victor Chan
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
-exclude: ["Gemfile", "Gemfile.lock", "node_modules", "vendor/bundle/", "vendor/cache/", "vendor/gems/", "vendor/ruby/", "README.md"]
+exclude:
+  [
+    "Gemfile",
+    "Gemfile.lock",
+    "node_modules",
+    "vendor/bundle/",
+    "vendor/cache/",
+    "vendor/gems/",
+    "vendor/ruby/",
+    "README.md",
+  ]
+defaults:
+  - scope:
+      path: "assets/favicons"
