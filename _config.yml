@@ -13,5 +13,7 @@ exclude:
     "README.md",
   ]
 defaults:
-  - scope:
-      path: "assets/favicons"
+  scope:
+    path: "assets/favicons"
+  values:
+    layout: "default"
