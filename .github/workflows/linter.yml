@@ -46,6 +46,6 @@ jobs:
       - name: Run Super Linter
         uses: github/super-linter@v3
         env:
-          VALIDATE_ALL_CODEBASE: true # TODO switch this back once I fix all the linting problems
+          VALIDATE_ALL_CODEBASE: false
           DEFAULT_BRANCH: master
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
