@@ -1,0 +1,2 @@
+# Changes should be made in the .github/linters directory
+extends: .github/linters/.markdown-lint.yml
