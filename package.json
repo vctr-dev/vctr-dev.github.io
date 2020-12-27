@@ -5,9 +5,13 @@
 		"posttest": "npm run format",
 		"start": "bundle exec jekyll serve",
 		"gem:update": "bundle update",
-		"gem:install": "bundle install"
+		"gem:install": "bundle install",
+		"lint:md": "markdownlint --config .github/linters/.markdown-lint.yml --ignore \"node_modules/\" \"**/*.md\"",
+		"lint:html": "htmlhint --config .github/linters/.htmlhintrc"
 	},
 	"devDependencies": {
+		"htmlhint": "^0.14.2",
+		"markdownlint-cli": "^0.26.0",
 		"prettier": "^2.0.5"
 	}
 }
