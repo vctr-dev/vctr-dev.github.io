@@ -32,6 +32,8 @@
 				</li>
 			</ul>
 		</footer>
-		<script data-goatcounter="https://vctr-dev.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+		{% if jekyll.environment == "production" %}
+			<script data-goatcounter="https://vctr-dev.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+		{% endif %}
 	</body>
 </html>
