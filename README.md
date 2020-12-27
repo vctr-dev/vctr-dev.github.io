@@ -1,5 +1,7 @@
 # Victor's Website
 
+[![GitHub Super-Linter](https://github.com/vctr-dev/vctr-dev.github.io/workflows/Lint%20Code%20Base/badge.svg)](https://github.com/marketplace/actions/super-linter)
+
 ## Setup Jekyll (Mac OSX)
 
 These set of instructions are a summary from [Github](https://help.github.com/articles/setting-up-your-github-pages-site-locally-with-jekyll/)
