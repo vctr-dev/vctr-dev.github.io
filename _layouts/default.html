@@ -1,39 +1,39 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<title>{{ page.title }}</title>
-		<link rel="stylesheet" type="text/css" href="/css/main.css" />
-		<link rel="apple-touch-icon" sizes="180x180" href="/assets/favicons/apple-touch-icon.png">
-		<link rel="icon" type="image/png" sizes="32x32" href="/assets/favicons/favicon-32x32.png">
-		<link rel="icon" type="image/png" sizes="16x16" href="/assets/favicons/favicon-16x16.png">
-		<link rel="manifest" href="/assets/favicons/site.webmanifest">
-	</head>
-	<body>
-		<nav>
-			<ul>
-				<li><a href="/">Home</a></li>
-				<li><a href="/blog">Blog</a></li>
-			</ul>
-		</nav>
-		<div class="container">
-			{{ content }}
-		</div>
-		<footer>
-			<ul>
-				<li>
-					<a target="_blank" href="https://twitter.com/vctr_chn"
-						>twitter: @vctr_chn</a
-					>
-				</li>
-				<li>
-					<a target="_blank" href="{{ site.github.owner_url }}"
-						>github: {{ site.github.owner_name }}</a
-					>
-				</li>
-			</ul>
-		</footer>
-		{% if jekyll.environment == "production" %}
-			<script data-goatcounter="https://vctr-dev.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
-		{% endif %}
-	</body>
+<head>
+  <title>{{ page.title }}</title>
+  <link rel="stylesheet" type="text/css" href="/css/main.css" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicons/favicon-16x16.png">
+  <link rel="manifest" href="/assets/favicons/site.webmanifest">
+</head>
+<body>
+  <nav>
+    <ul>
+      <li><a href="/">Home</a></li>
+      <li><a href="/blog">Blog</a></li>
+    </ul>
+  </nav>
+  <div class="container">
+    {{ content }}
+  </div>
+  <footer>
+    <ul>
+      <li>
+        <a target="_blank" href="https://twitter.com/vctr_chn"
+        >twitter: @vctr_chn</a
+        >
+      </li>
+      <li>
+        <a target="_blank" href="{{ site.github.owner_url }}"
+        >github: {{ site.github.owner_name }}</a
+        >
+      </li>
+    </ul>
+  </footer>
+  {% if jekyll.environment == "production" %}
+  <script data-goatcounter="https://vctr-dev.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+  {% endif %}
+</body>
 </html>
