@@ -2,25 +2,25 @@
 layout: default
 title: Victor's Website
 ---
-
 <div class="blurb">
-	<h1>Victor's Website</h1>
-	<p>
-		Hi, I'm Victor. I am software developer. I write code.
-	</p>
-	<p>
-		Views here are my own. Welcome to my world, and thanks for stopping by.</p>
-	<hr />
-	<h2>Recent Posts</h2>
-	<ul class="posts">
-		{% for post in site.posts limit:5 %}
-		<li>
-			<span>{{ post.date | date_to_string }}</span> »
-			<a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
-		</li>
-		{% endfor %}
-		<li>
-			<a href="/blog">See more posts</a>
-		</li>
-	</ul>
+  <h1>Victor's Website</h1>
+  <p>
+    Hi, I'm Victor. I am software developer. I write code.
+  </p>
+  <p>
+    Views here are my own. Welcome to my world, and thanks for stopping by.
+  </p>
+  <hr />
+  <h2>Recent Posts</h2>
+  <ul class="posts">
+    {% for post in site.posts limit:5 %}
+    <li>
+      <span>{{ post.date | date_to_string }}</span> »
+      <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+    </li>
+    {% endfor %}
+    <li>
+      <a href="/blog">See more posts</a>
+    </li>
+  </ul>
 </div>
